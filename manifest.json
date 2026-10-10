@@ -1,0 +1,29 @@
+{
+  "name": "Naruto clássico — Dattebane",
+  "version": "1.2.3",
+  "description": "Provider personalizado para Nuvio; arquivos estáticos para hospedagem HTTPS. Prioriza FHD normal e usa FHD-MQ como fallback.",
+  "scrapers": [
+    {
+      "id": "naruto-dattebane-live",
+      "name": "Naruto clássico — Dattebane",
+      "description": "Consulta a página de links durante a busca; requer que a requisição externa funcione no ambiente do Nuvio.",
+      "version": "1.2.3",
+      "author": "Custom local provider",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/naruto-dattebane-live.js",
+      "enabled": true,
+      "logo": "",
+      "contentLanguage": [
+        "pt"
+      ],
+      "formats": [
+        "mp4"
+      ],
+      "limited": true,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    }
+  ]
+}
